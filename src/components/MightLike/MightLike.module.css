@@ -1,0 +1,65 @@
+.mightLikeContainer {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  margin: 0;
+  font-size: 13px;
+  width: 19%;
+  padding: 3px 13px;
+  border-radius: 10px;
+  position: relative;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0.4;
+}
+.profileImage {
+  width: 41px;
+  height: 41px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.profileNameContainer {
+  width: 135px;
+  margin: 0 20px 0 10px;
+}
+.profileUserName {
+  color: rgb(104, 103, 103);
+}
+.verificaitonImage {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+.followButton {
+  width: 75px;
+  height: 32px;
+  background-color: white;
+  color: rgb(85, 84, 84);
+  border-radius: 15px;
+  border-style: none;
+}
+.showMoreParagraph {
+  font-size: 14px;
+  color: rgb(66, 144, 245);
+}
