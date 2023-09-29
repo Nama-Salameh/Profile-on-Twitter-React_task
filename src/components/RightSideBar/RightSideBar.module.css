@@ -1,0 +1,17 @@
+.rightSideBarContainer {
+  background-color: black;
+  color: rgb(104, 103, 103);
+  margin: 0 15px;
+  width: 25%;
+  line-height: 0.5;
+  height: 100vh;
+  overflow-y: auto;
+}
+.rightSideBarContainer > * {
+  margin-bottom: 10px;
+}
+.rightSideBarContainer div p{
+    display: inline;
+    margin: 0 4px;
+    font-size: 13px;
+}

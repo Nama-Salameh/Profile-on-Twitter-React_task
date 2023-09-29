@@ -59,7 +59,7 @@ const TrendsForYou = () => {
           <p className={style.moreForTrend}>...</p>
         </li>
         <li>
-          <div>
+          <div >
             <h3 className={`${style.trendTitle} ${style.ArabicTitleListItem}`}>الاعلام العبري</h3>
           </div>
         </li>
