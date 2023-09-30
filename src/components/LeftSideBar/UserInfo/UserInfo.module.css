@@ -1,0 +1,34 @@
+
+.userInfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    line-height: 0.5;
+  }
+  .userNames {
+    margin: 0 12px;
+  }
+  .userNames p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+    line-height: 0.8;
+  }
+  .userName{
+      color:rgb(104, 103, 103)
+  }
+  .userInfo p {
+    margin-top: 4px;
+    
+  }
+  .userImage {
+    width: 41px;
+    height: 41px;
+  }
+  
