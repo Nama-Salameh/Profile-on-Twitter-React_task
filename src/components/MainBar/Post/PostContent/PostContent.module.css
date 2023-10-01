@@ -1,0 +1,53 @@
+.postContent {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+}
+
+.userImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.textContent {
+  flex-grow: 1;
+}
+
+.userInfo {
+  margin-bottom: 8px;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.userHandle {
+  font-size: 14px;
+  color: #657786;
+}
+
+.dotSeparator {
+  margin: 0 6px;
+  color: #657786;
+}
+
+.postDate {
+  font-size: 14px;
+  color: #657786;
+}
+
+.postContent {
+  font-size: 16px;
+  margin-top: 0px;
+}
+.more {
+  font-weight: bold;
+  font-size: 16px;
+  color: #657786;
+  cursor: pointer;
+  padding-right: 3%;
+} 

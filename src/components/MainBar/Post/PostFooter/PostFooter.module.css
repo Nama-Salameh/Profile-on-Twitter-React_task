@@ -1,0 +1,18 @@
+.postFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  color: rgb(104, 103, 103);
+  line-height: 0.7;
+}
+
+.interactionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcon {
+  margin-right: 8px;
+}
