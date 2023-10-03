@@ -1,9 +1,9 @@
-import TailwindImage from "../../assets/tailwind-css-icon.png";
-import TypeScriptImage from "../../assets/Typescript_logo_2020.svg.png";
-import FreeCodeCampImage from "../../assets/freeCodeCamp.jpg";
-import verificationImage from "../../assets/Twitter_Verified_Badge.png";
+import TailwindImage from "../../../assets/tailwind-css-icon.png";
+import TypeScriptImage from "../../../assets/Typescript_logo_2020.svg.png";
+import FreeCodeCampImage from "../../../assets/freeCodeCamp.jpg";
+import verificationImage from "../../../assets/Twitter_Verified_Badge.png";
 import style from "./MightLike.module.css";
-import ProfileListElement from "../ProfileListElement/ProfileListElemet";
+import ProfileListElement from "../../ProfileListElement/ProfileListElemet";
 
 const profileElements = [
   {

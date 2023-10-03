@@ -1,4 +1,4 @@
-import MightLike from '../MightLike/MightLike';
+import MightLike from './MightLike/MightLike';
 import SearchBar from '../SearchBar/SearchBar'
 import TrendsForYou from '../TrensForYou/TrendsForYou';
 import style from './RightSideBar.module.css'
