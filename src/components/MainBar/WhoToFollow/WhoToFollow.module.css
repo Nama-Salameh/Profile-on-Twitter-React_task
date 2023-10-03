@@ -1,0 +1,21 @@
+.WhoToFollowContainer {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-size: 15px;
+  padding: 5px 13px 20px;
+  bottom: 0;
+  text-align: justify;
+  height: 500px;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+.showMoreParagraph {
+  font-size: 14px;
+  color: rgb(66, 144, 245);
+}
+.profileDescriptionContainer {
+  margin-left: 6%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
