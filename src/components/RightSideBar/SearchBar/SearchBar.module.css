@@ -1,0 +1,21 @@
+.searchBarContainer {
+  background-color: rgb(41, 41, 41);
+  margin: 0;
+  font-size: 19px;
+  width: 82%;
+  height: 23px;
+  padding: 10px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  color: rgb(104, 103, 103);
+}
+.searchInput{
+  border-style: none;
+  background-color: rgb(41, 41, 41);
+}
+.searchInput::placeholder{
+    color: rgb(104, 103, 103);
+    padding-left: 10px;
+    font-size: 15px;
+}

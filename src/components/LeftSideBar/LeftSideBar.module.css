@@ -1,0 +1,28 @@
+.leftSideBar {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  width: 20%;
+  height: 100vh;
+  margin-right: 22px;
+  padding: 2px;
+  position: relative;
+}
+.leftSideBarList {
+  padding: 10px;
+  margin: 0;
+}
+.twitterIcon {
+  color: white;
+  font-size: 22px;
+}
+.postButton {
+  background-color: rgb(66, 144, 245);
+  color: white;
+  width: 90%;
+  height: 37px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 14px;
+}

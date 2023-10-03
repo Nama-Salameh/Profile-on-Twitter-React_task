@@ -1,0 +1,15 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 0.5;
+}
+.icon {
+  color: white;
+  width: 22px;
+  margin-right: 7px;
+}
+.title {
+  margin-left: 10px;
+  display: inline-block;
+}

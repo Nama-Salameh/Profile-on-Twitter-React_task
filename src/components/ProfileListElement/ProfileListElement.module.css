@@ -1,0 +1,34 @@
+.profileInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.profileImage {
+  width: 41px;
+  height: 41px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.profileNameContainer {
+  width: 160px;
+  margin: 0 20px 0 10px;
+}
+.profileUserName {
+  color: rgb(104, 103, 103);
+}
+.verificaitonImage {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+.followButton {
+  width: 80px;
+  height: 32px;
+  background-color: white;
+  color: rgb(85, 84, 84);
+  border-radius: 15px;
+  border-style: none;
+}

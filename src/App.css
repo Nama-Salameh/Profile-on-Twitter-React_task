@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; 
+}
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar track */
+}
