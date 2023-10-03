@@ -1,12 +1,14 @@
-import LeftSideBar from './components/LeftSideBar/LeftSideBar.jsx'
-import MightLike from './components/MightLike/MightLike.jsx';
-import TrendsForYou from './components/TrensForYou/TrendsForYou.jsx';
+import LeftSideBar from "./components/LeftSideBar/LeftSideBar.jsx";
+import RightSideBar from "./components/RightSideBar/RightSideBar.jsx";
+import "./App.css";
+import MainBar from "./components/MainBar/MainBar.jsx";
+
 function App() {
   return (
     <div className="App">
-      <LeftSideBar/>
-      <MightLike/>
-      <TrendsForYou/>
+      <LeftSideBar />
+        <MainBar />
+        <RightSideBar />
     </div>
   );
 }

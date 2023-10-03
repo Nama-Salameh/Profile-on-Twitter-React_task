@@ -1,7 +1,7 @@
 import style from "./ProfileListElement.module.css";
 import verificationImage from "../../assets/Twitter_Verified_Badge.png";
 
-const ProfileListElement = ({ profileInfo }) => {
+const ProfileListElement = ({ profileInfo ,customWidth}) => {
   return (
     <div className={style.profileInfo}>
       <img
@@ -9,7 +9,7 @@ const ProfileListElement = ({ profileInfo }) => {
         alt={profileInfo.profileName}
         className={style.profileImage}
       />
-      <div className={style.profileNameContainer}>
+      <div className={style.profileNameContainer}  style={{ width: customWidth }}>
         <p>
           <b>{profileInfo.profileName} </b>
           {profileInfo.isVerified && (

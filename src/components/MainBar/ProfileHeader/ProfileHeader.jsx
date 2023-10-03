@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import style from "./ProfileHeader.module.css";
 
-import coverImage from "../../../logo192.png";
+import coverImage from "../../../assets/reactLogo.png";
 import React, { useState } from "react";
 
 const profileInfo = {

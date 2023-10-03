@@ -6,6 +6,8 @@
   width: 100%;
   line-height: 0.8;
   padding: 0;
+  margin: 0;
+  border-collapse: collapse;
 }
 
 .postHeaderP {
